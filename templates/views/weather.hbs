@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> headtags }}
+  <link rel="stylesheet" href="css/weather.css"/>
+</head>
+<body>
+  {{> header }}
+
+  <section class="main-content">
+    <div class="description">
+      <p>Enter your location below to get the weather.</p>
+    </div>
+
+    <div class="form-container">
+      <input
+        aria-required="true"
+        spellcheck="true"
+        type="text"
+        placeholder="City, State"
+        id="address"
+      />
+      <button id="submit"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <div id='forecast'>
+    </div>
+  </section>
+
+  {{> footer }}
+</body>
+<script src="js/weather.js"></script>
+</html>
