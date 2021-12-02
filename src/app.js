@@ -124,10 +124,8 @@ app.get("*", (req, res) => {
   res.render("404");
 });
 
-// app.com
-// app.com/help
-// app.com/about
+const port = process.env.PORT || 3000;
 
-app.listen(3000, () => {
-  console.log("Server is up on port 3000");
+app.listen(port, () => {
+  console.log(`Server is up on port ${port}`);
 });
