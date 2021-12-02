@@ -108,13 +108,6 @@ app.get("/site-info", (req, res) => {
   });
 });
 
-app.get("/about", (req, res) => {
-  res.render("about", {
-    title: "About Me",
-    name: "Brett Plemons",
-  });
-});
-
 app.get("/chat", (req, res) => {
   res.render("chat", {
     title: "Chat",
