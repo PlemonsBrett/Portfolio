@@ -45,8 +45,8 @@ header {
 
 .fa {
   padding: 0.65rem;
-  font-size: 1rem;
-  width: 1rem;
+  font-size: 1.5rem;
+  width: 1.5rem;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -54,6 +54,11 @@ header {
 
 .fa:hover {
   opacity: 0.7;
+}
+
+.fa-github {
+  background: #333;
+  color: white;
 }
 
 .fa-linkedin {
@@ -159,4 +164,8 @@ footer a {
 
 section {
   margin-top: 2rem;
+}
+
+section img {
+  width: 250px;
 }
