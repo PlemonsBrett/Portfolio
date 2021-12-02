@@ -22,7 +22,7 @@ module.exports = {
       user: "SSH_USERNAME",
       host: "SSH_HOSTMACHINE",
       ref: "origin/master",
-      repo: "https://github.com/PlemonsBrett/Portfolio",
+      repo: "https://git.heroku.com/vast-tor-34673.git",
       path: "DESTINATION_PATH",
       "pre-deploy-local": "",
       "post-deploy": "yarn && pm2 reload ecosystem.config.js --env production",

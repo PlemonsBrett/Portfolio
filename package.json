@@ -7,7 +7,9 @@
     "start": "pm2-runtime start ecosystem.config.js --env production",
     "lint": "eslint --fix-all .",
     "dev": "pm2 src/app.js --watch --name app",
-    "restart": "pm2 restart app"
+    "restart": "pm2 restart app",
+    "stop": "pm2 stop app",
+    "logs": "pm2 monit"
   },
   "dependencies": {
     "express": "^4.17.1",
