@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    {{> headtags }}
+    <link rel="stylesheet" href="css/site-info.css"/>
+  </head>
+  <body>
+    {{> header }}
+
+    <section class="main-content">
+      <div class="grid-container">
+        {{#each tools}}
+          {{> dependencyCard tool=. }}
+        {{/each}}
+      </div>
+    </section>
+
+    {{> footer }}
+  </body>
+</html>
