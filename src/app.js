@@ -6,8 +6,6 @@ const express = require("express");
 const hbs = require("hbs");
 
 // Internal Imports
-const { geocode } = require("./utils/geocode");
-const { getWeather } = require("./utils/weather");
 const { siteInfo } = require("./siteInfo");
 const { chat } = require("./chat");
 const { notes } = require("./noteApp");
