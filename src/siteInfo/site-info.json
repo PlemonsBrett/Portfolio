@@ -1,0 +1,76 @@
+{
+  "title": "Site Info",
+  "name": "Brett Plemons",
+  "tools": [
+    {
+      "name": "NodeJS",
+      "version": "16.13.0",
+      "link": "https://nodejs.org/en/",
+      "use": "Server API",
+      "logo": "https://nodejs.org/static/images/logo.svg"
+    },
+    {
+      "name": "Yarn",
+      "version": "1.22.17",
+      "link": "https://yarnpkg.com/",
+      "use": "Package Manager",
+      "logo": "img/yarn.png"
+    },
+    {
+      "name": "Heroku",
+      "version": "2021",
+      "link": "https://www.heroku.com",
+      "use": "Hosting",
+      "logo": "img/heroku.png"
+    },
+    {
+      "name": "Express",
+      "version": "4.17.1",
+      "link": "https://expressjs.com/",
+      "use": "Server Framework",
+      "logo": "https://www.nextontop.com/assets/img/services/web/expressjs.svg"
+    },
+    {
+      "name": "Handlebars (as HBS)",
+      "version": "4.2.0",
+      "link": "https://github.com/pillarjs/hbs#readme",
+      "use": "Templating Engine",
+      "logo": "https://handlebarsjs.com/images/handlebars_logo.png"
+    },
+    {
+      "name": "QS (QueryString)",
+      "version": "6.10.1",
+      "link": "https://github.com/ljharb/qs",
+      "use": "Parsing JSON to QueryStrings",
+      "logo": "img/qs-logo.png"
+    },
+    {
+      "name": "PM2",
+      "version": "5.1.2",
+      "link": "https://pm2.keymetrics.io/",
+      "use": "Process Manager",
+      "logo": "https://pm2.keymetrics.io/assets/pm2-logo-1.png"
+    },
+    {
+      "name": "Yargs",
+      "version": "17.3.0",
+      "link": "https://yargs.js.org/",
+      "use": "Command-Line Tools",
+      "logo": "https://raw.githubusercontent.com/yargs/yargs/main/yargs-logo.png"
+    },
+    {
+      "name": "ESLint",
+      "version": "8.3.0 (Airbnb)",
+      "link": "https://eslint.org/",
+      "use": "Linter",
+      "logo": "https://d33wubrfki0l68.cloudfront.net/204482ca413433c80cd14fe369e2181dd97a2a40/092e2/assets/img/logo.svg"
+    },
+    {
+      "name": "Prettier",
+      "version": "2.5.0",
+      "link": "https://prettier.io/",
+      "use": "Formatter",
+      "logo": "img/Prettier.png"
+    }
+  ]
+}
