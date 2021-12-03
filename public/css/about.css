@@ -9,4 +9,5 @@ section {
 
 section img {
   max-height: 300px;
+  border-radius: 5%;
 }
